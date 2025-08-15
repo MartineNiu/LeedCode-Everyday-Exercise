@@ -13,7 +13,7 @@ class Solution:
             num_to_index[num] = i 
         # 如果没有找到，返回空列表（根据题目，这种情况不会发生）
         return []
- 
+    
 # 输入处理 
 n, target = map(int, input().split())
 nums = list(map(int, input().split()))
