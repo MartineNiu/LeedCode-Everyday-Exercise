@@ -2,7 +2,7 @@ class Solution:
     def twoSum(self, nums, target) :
         # 创建一个哈希表来存储元素及其下标 
         num_to_index = {}
-        
+
         # 遍历数组 
         for i, num in enumerate(nums):
             # 计算需要的补数 
@@ -25,4 +25,5 @@ result = solution.twoSum(nums,  target)
  
 # 输出结果 
 print(result[0], result[1])
+
 
