@@ -21,7 +21,8 @@ for _ in range(q):
     r-=1
     max_val = arr[l]
     indices = [l+1]
-    for i in range(l,r+1):
+    for i in range(l+1,r+1):# 这里一定要注意不能从第一个开始算，
+                            # 因为如果第一个值和第二个值相等，就会append两次
         if arr[i]>max_val:
             indices = [i+1]
             max_val = arr[i]
@@ -31,4 +32,3 @@ for _ in range(q):
             continue
     print(max_val)
     print(' '.join(map(str, indices)))
-
