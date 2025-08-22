@@ -23,4 +23,12 @@ for _ in range(q):
     indices = [l+1]
     for i in range(l,r+1):
         if arr[i]>max_val:
-            
+            indices = [i+1]
+            max_val = arr[i]
+        elif arr[i] == max_val:
+            indices.append(i+1)
+        else:
+            continue
+    print(max_val)
+    print(' '.join(map(str, indices)))
+
