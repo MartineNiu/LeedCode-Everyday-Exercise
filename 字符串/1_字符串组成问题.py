@@ -15,6 +15,7 @@ def a_b():
             len_b = len(b)
     return 'Yes'
 
+
 result = a_b()
 print(result)
         
