@@ -13,3 +13,4 @@ for _ in range(q):
         print(-1)
     else:
         print(positions[x][k-1])
+        
