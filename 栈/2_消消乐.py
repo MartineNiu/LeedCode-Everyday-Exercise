@@ -1,4 +1,4 @@
-# 方法1：插入前判断
+# 方法1：入栈前判断
 # def elimate(arr):
 #     stack = []
 #     for i in arr:
@@ -17,7 +17,7 @@
 #     print(' '.join(map(str, stack))) 
 
 
-# 方法2：插入后判断
+# 方法2：入栈后判断
 def elimate(arr):
     stack = []
     for i in arr:
