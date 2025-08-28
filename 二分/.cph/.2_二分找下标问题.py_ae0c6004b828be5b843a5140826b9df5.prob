@@ -1,0 +1,1 @@
+{"name":"Local: 2_二分找下标问题","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\二分\\2_二分找下标问题.py","tests":[{"id":1756359104673,"input":"7 3\n1 2 2 3 4 4 5\n2\n4\n6","output":"2 3\n5 6\n-1 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\二分\\2_二分找下标问题.py","group":"local","local":true}
