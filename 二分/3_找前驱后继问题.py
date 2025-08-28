@@ -32,4 +32,3 @@ def main():
         print(f"{max_val} {min_val}")
 
 main()
-
