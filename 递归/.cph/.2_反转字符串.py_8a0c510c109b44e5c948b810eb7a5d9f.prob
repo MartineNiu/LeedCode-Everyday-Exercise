@@ -1,0 +1,1 @@
+{"name":"Local: 2_反转字符串","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\2_反转字符串.py","tests":[{"id":1756394476001,"input":"qwert","output":"trewq"},{"id":1756394487469,"input":"12345","output":"54321"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\2_反转字符串.py","group":"local","local":true}

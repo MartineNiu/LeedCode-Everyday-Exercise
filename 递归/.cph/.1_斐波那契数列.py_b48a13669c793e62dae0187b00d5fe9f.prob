@@ -1,0 +1,1 @@
+{"name":"Local: 1_斐波那契数列","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\1_斐波那契数列.py","tests":[{"id":1756389427152,"input":"5","output":"5"},{"id":1756389433215,"input":"8","output":"21"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\1_斐波那契数列.py","group":"local","local":true}
