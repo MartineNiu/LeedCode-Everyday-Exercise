@@ -1,0 +1,1 @@
+{"name":"Local: 1_查询是否存在某个数","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\二分\\1_查询是否存在某个数.py","tests":[{"id":1756349957637,"input":"5 3\n1 3 5 7 9\n3\n2\n9","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\二分\\1_查询是否存在某个数.py","group":"local","local":true}
