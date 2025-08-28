@@ -1,4 +1,4 @@
-# LeedCode-Everyday-Exercise 💻
+# Everyday-Exercise 💻
 Welcome to my daily LeetCode grind! This repository is a personal log of my journey through algorithm challenges, written in Python. I update it every day with new solutions, reflections, and sometimes alternate approaches.
 
 ## 📅 Update Schedule
