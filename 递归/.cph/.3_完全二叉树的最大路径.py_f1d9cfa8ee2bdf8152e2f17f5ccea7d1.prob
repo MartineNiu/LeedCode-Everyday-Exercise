@@ -1,0 +1,1 @@
+{"name":"Local: 3_完全二叉树的最大路径","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\3_完全二叉树的最大路径.py","tests":[{"id":1756433584415,"input":"5\n1 2 3 4 5","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\3_完全二叉树的最大路径.py","group":"local","local":true}
