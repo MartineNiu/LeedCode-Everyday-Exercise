@@ -1,0 +1,1 @@
+{"name":"Local: 5_路径统计2","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\5_路径统计2.py","tests":[{"id":1756445807144,"input":"3\n1 1 2 2\n4","output":"18"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\递归\\5_路径统计2.py","group":"local","local":true}
