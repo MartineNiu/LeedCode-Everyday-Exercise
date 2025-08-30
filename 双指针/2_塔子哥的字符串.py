@@ -1,5 +1,4 @@
 from collections import defaultdict
-
 def find_shortest(s):
     counter = defaultdict(int)
     left = right = 0
@@ -9,7 +8,7 @@ def find_shortest(s):
 
     while right < n:
         # 扩展右指针
-        counter[s[right]] += 1
+        counter[s[right]] += 1 # 这里用了default的字典，可以直接赋值
         if counter[s[right]] == 1:  # 第一次出现
             diff_char += 1
         right += 1
