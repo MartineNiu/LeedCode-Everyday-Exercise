@@ -26,3 +26,31 @@ def add_edge(adj_list, u, v):
 # 对每个节点的邻接表排序
 # 比较 adj_a[i] == adj_b[i] 是否成立
 
+# 读取节点数
+n = int(input())
+
+# 图A：邻接矩阵转邻接表
+adj_a = {i:[] for i in range(1,n+1)}
+for i in range(1,n+1):
+    row = list(map(int, input().split()))
+    for j in range(n):
+        if row[j]==1:
+            adj_a[i].append(j+1)
+
+# 图B：直接读取邻接表
+adj_b = {i:[] for i in range(1,n+1)}
+for i in range(1,n+1):
+    row = list(map(int, input().split()))
+    adj_b[row[0]].extend(row[2:])
+
+for i in range(1,n+1):
+    adj_a[i].sort()
+    adj_b[i].sort()
+
+same = True
+for i in range(1,n+1):
+    if adj_a[i]!= adj_b[i]:
+        same = False
+        break
+
+print('YES' if same else 'NO')
