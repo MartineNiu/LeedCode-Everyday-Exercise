@@ -7,6 +7,7 @@
 #     else:
 #         dict[num]=1
     
+
 # # 可以用更pythonic的风格
 # # freq = {}
 # # for num in nums:
