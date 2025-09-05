@@ -20,7 +20,6 @@ def count_intervals(a,x,k):
             total += temp_left-left+1
     return total
 
-
 a = list(map(int, input().split()))
 x, k = map(int, input().split())
 result = count_intervals(a,x,k)
