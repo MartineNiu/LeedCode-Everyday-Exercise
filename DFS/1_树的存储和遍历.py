@@ -8,3 +8,5 @@
 # 父亲数组形式不用担心无限递归问题，可以直接转化为邻接表遍历
 
 
+adjList = [[] for _ in range(4)]
+print(adjList)
