@@ -8,5 +8,21 @@
 # 父亲数组形式不用担心无限递归问题，可以直接转化为邻接表遍历
 
 
-adjList = [[] for _ in range(4)]
-print(adjList)
+def dfs(node, father):
+    traversal_result.append(node)
+    for child in adjList[node]:
+        if child != father:
+            dfs(child, node)
+n = int(input())
+tree_type = int(input())
+
+adjList = [[] for _ in range(n+1)]
+traversal_result = []
+
+if tree_type == 1:
+    for _ in range(n-1):
+        u,v = map(int, input().split())
+        adjList[u].append(v)
+        adjList[v].append(u)
+elif tree_type == 2:
+    father = list
