@@ -25,4 +25,13 @@ if tree_type == 1:
         adjList[u].append(v)
         adjList[v].append(u)
 elif tree_type == 2:
-    father = list
+    father = list(map(int, input().split()))
+    for i in range(1,n+1):
+        if father[i-1] != 0:
+            adjList[father[i-1]].append(i)
+
+for i in range(1,n+1):
+    adjList[i].sort()
+
+dfs(1,0)
+print(' '.join(map(str, traversal_result)))

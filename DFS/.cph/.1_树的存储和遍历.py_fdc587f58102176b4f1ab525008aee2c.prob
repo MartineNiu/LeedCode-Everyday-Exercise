@@ -1,0 +1,1 @@
+{"name":"Local: 1_树的存储和遍历","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\DFS\\1_树的存储和遍历.py","tests":[{"id":1757608747056,"input":"5\n1\n1 2\n1 3\n2 4\n2 5","output":"1 2 4 5 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\DFS\\1_树的存储和遍历.py","group":"local","local":true}
