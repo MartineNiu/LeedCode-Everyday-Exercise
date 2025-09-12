@@ -6,8 +6,8 @@ adj = [[] for _ in range(MAX)]
 visited = [False] * MAX
 
 def dfs(node):
-    visited[node] = True
-    for neighbor in adj[node]:
+    visited[node] = True #标记当前节点为已经访问
+    for neighbor in adj[node]:# 遍历邻居
         if visited[neighbor] is False:
             dfs(neighbor)
 
@@ -26,3 +26,13 @@ def main():
     print(count)
 
 main()
+
+'''
+一次 dfs() 调用的作用：确实会把从起始点可达的所有节点都标记为 visited[i] = True
+
+main() 中的 dfs() vs 函数内的 dfs()：
+
+main() 中的 dfs()：是每个连通块的"入口点"，开始探索一个新的连通块
+函数内的 dfs()：是递归调用，用于深度遍历当前连通块内的其他节点
+
+'''
