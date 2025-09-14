@@ -7,7 +7,6 @@
 # 此时在递归时，需要增加父亲参数避免无限递归
 # 父亲数组形式不用担心无限递归问题，可以直接转化为邻接表遍历
 
-
 def dfs(node, father):
     traversal_result.append(node)
     for child in adjList[node]:
