@@ -1,0 +1,1 @@
+{"name":"Local: 5_完整二叉树","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\DFS\\5_完整二叉树.py","tests":[{"id":1758382519544,"input":"3\n1 1\n1 1 1","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\DFS\\5_完整二叉树.py","group":"local","local":true}
