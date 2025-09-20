@@ -8,5 +8,6 @@ for i in range(num-1):
     parent = tree_info[i]-1
     child = i+1
     adj[parent].append(child)
+    
 
 
