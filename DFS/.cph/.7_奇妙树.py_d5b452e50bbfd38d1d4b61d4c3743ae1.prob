@@ -1,0 +1,1 @@
+{"name":"Local: 7_奇妙树","url":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\DFS\\7_奇妙树.py","tests":[{"id":1758469746895,"input":"3\n1 2 3\n1 2\n1 3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Self_document\\job\\LeedCode-Everyday-Exercise\\DFS\\7_奇妙树.py","group":"local","local":true}
