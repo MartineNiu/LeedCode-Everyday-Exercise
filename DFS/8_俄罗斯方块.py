@@ -1,4 +1,3 @@
-
 n, k = map(int, input().split())
 vis = [[False] * n for _ in range(n)]
 
